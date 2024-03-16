@@ -1,0 +1,207 @@
+.AboutWrap{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 85vh;
+    background-color:rgb(3, 22, 65);
+    margin-bottom: 7vh;
+}
+
+.AboutWrapLight{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 85vh;
+    background-color: #C2DFFC;    
+    border-radius: 0px 0px 200px 0px;
+    margin-bottom: 7vh;
+}
+
+.About{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(5, 5, 32);
+    border-radius: 200px 0px 0px 0px;
+    color:whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* padding: 0px 50px; */
+}
+
+.AboutLight{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 100%;
+    /* background-color:rgb(211, 206, 211); */
+    background-color: whitesmoke;
+    border-radius: 200px 0px 0px 0px;
+    color:rgb(14, 13, 13);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* padding: 0px 50px; */
+}
+
+.AboutLeft{
+    width: 50%;
+}
+
+.AboutLeft img{
+    width: 70%;
+    border-radius: 50%;
+}
+
+.AboutRight{
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.AboutRight h1{
+    font-weight: bold;
+    font-size: 4vw;
+    /* margin-bottom: 20px; */
+    background-image:linear-gradient(155deg, rgb(61, 106, 239) 30%, rgb(122, 14, 190) 30%);
+            -webkit-background-clip: text; /* For Safari */
+            color: transparent;
+}
+
+.AboutRight p{
+    font-size: 1.2vw;
+    /* font-style: italic; */
+}
+
+.AboutLink{
+    /* height: 10%; */
+    cursor: pointer;
+    font-weight: bold;
+    color: bisque;
+    border-radius: 10px;
+    border: none;
+    transform: scale(1);
+    transition: 120ms;
+}
+
+.AboutLinkLight{
+    /* height: 10%; */
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(5, 5, 32);
+    border-radius: 10px;
+    border: none;
+    transform: scale(1);
+    transition: 120ms;
+}
+
+.AboutLink:hover, .AboutLinkLight:hover{
+    transform: scale(1.06);
+}
+
+.AboutLink:active, .AboutLinkLight:active{
+    transform: scale(0.9);
+    /* background-color: rgb(13, 13, 46); */
+}
+
+@media screen and (max-width:884px){
+    .AboutWrap{
+        height: 50vh;
+        
+    }
+    .AboutWrapLight{
+        height: 50vh;
+    }
+    .AboutLeft img{
+        width:85%;
+    }
+    .AboutRight h1{
+        font-size: 5vw;
+    }
+    .AboutRight p{
+        font-size: 1.8vw;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .AboutLink{
+        width: 120%;
+        /* margin-bottom: 5vh; */
+    }
+    .AboutLinkLight{
+        width: 120%;
+    }
+}
+
+@media screen and (max-width:428px){
+    .AboutWrap{
+        height: 100vh;
+    }
+    
+    .AboutWrapLight{
+        height: 100vh;
+    }
+    .About{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .AboutLight{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .AboutLeft{
+        width: 85%;
+        height: 50%;
+        /* padding-top: 10%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .AboutLeft img{
+        width:100%;
+    }
+
+    .AboutRight{
+        width: 85%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* background-color: red; */
+        height: 50%;
+        padding-bottom: 10%;
+    }
+    .AboutRight h1{
+        font-size: 15vw;
+    }
+    .AboutRight p{
+        font-size: 4vw;
+    }
+    .AboutLink{
+        font-size: 4.5vw;
+    
+    }
+}
+
+
+@media screen and (max-width:360px){
+    .AboutRight p{
+        font-size: 4.2vw;
+    }
+}
+
+@media screen and (max-width:320px){
+    .AboutWrap{
+        height: 120vh;
+    }
+    .AboutWrapLight{
+        height: 120vh;
+    }
+}
