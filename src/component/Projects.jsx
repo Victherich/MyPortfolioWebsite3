@@ -88,7 +88,7 @@ to enhance productivity and stay organized effortlessly.
         </div>
         
       </div> */}
-      <Link to={"/"}className={theme?'ViewOtherProjectsLight':'ViewOtherProjects'}>View other projects</Link>
+      <Link to={"/otherprojects"}className={theme?'ViewOtherProjectsLight':'ViewOtherProjects'}>View other projects</Link>
     </div>
     </div>
   )
