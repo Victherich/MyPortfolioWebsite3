@@ -52,3 +52,4 @@ to enhance productivity and stay organized effortlessly.</p>
 }
 
 export default OtherProjects
+
