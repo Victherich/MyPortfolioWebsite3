@@ -58,12 +58,7 @@ to enhance productivity and stay organized effortlessly.
         </div>
         <div className={theme?'ProjectRightLight':'ProjectRight'}> 
           <p>
-          This real estate web application is crafted with precision, empowers agents and real estate companies to list 
-          properties for sale or rent. Prospective tenants and buyers effortlessly
-           browse listed homes, connecting directly with agents and real estate companies 
-           to facilitate deals. It's has payment integration that allows paid sponsored posts by real estate agencies.
-           This app has won the first position in the lattest hackattaon organosed by Kora fin Tech on 
-           the 7th of march 2024.
+          This is a precision-crafted real estate web app which enables agents and companies to list properties for sale or rent. Users effortlessly browse listings, connecting with agents directly. It features Korapay integration for sponsored posts and won first place among nine other competing apps in a hackathon for graduating techies organized by Kora.
            
           </p>
           <button onClick={()=>window.open("https://homehub-ten.vercel.app/","_blank")}>Click to Explore</button>

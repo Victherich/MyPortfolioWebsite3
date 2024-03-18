@@ -312,7 +312,7 @@
 @media screen and (max-width:428px){
     .Project{
         width: 90%;
-        height: 100vh;
+        height: 110vh;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -320,7 +320,7 @@
     }   
     .ProjectLight{
         width: 90%;
-        height: 100vh;
+        height: 110vh;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -387,7 +387,7 @@
         font-size: 4.5vw;
     }
     .ViewOtherProjectsLight{
-        font-size: 4.5vw;
+        
     }
 }
 
