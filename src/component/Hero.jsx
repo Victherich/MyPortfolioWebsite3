@@ -57,7 +57,7 @@ useEffect(()=>{
         <h1>Victor Ndu</h1>
         <p>| Software Developer | Front-end Development |</p>
         <p>| UIUX Design | HTML | CSS | JavaScript |</p>
-        <p>| React js | React-Native | Git-hub |</p>
+        <p>| React js | Git-hub |</p>
       </div>
       <div className='Carousel'>
       <img src={carousalmages[carousalImageIndex]} alt="Img"/>
